@@ -1,0 +1,95 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header{
+  display: flex;
+  height: 30px;
+  padding: 1px; 
+}
+.Sidebar{
+  flex: 0.2;
+  
+}
+.Home1{
+  flex: 1;
+
+
+}
+.flex-container {
+  display: flex;
+}
+.Sub-harder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(56, 56, 79);
+
+}
+
+
+.Simple{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+  align-items: center;
+}
+.Simple-1{
+  
+  position: relative;
+  right : 35px;
+ 
+
+}
+.nav-link {
+  text-decoration: none;
+}
+
+
+.description{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.Sub-harder1 {
+
+  padding: 10px 10px 10px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.Sub-harder2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+.Sub-harder3{
+width: 300px;
+}
+.Sub-harder4 {
+
+  padding: 10px 50px 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sub-harder5 {
+  width: 140px;
+  text-align: end;
+  margin: 10px
+}
+.Sub-harder6{
+  width: 300px;
+  height: 100px;
+  }
+
+ 
